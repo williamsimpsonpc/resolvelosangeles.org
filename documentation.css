@@ -1,0 +1,125 @@
+.centerme{
+  margin: auto;
+  display: block;
+  
+}
+
+
+
+/*Any screen bigger than Smart Phone*/
+@media all and (min-width:481px) {
+
+.donatebutton {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  border-radius: 10px;
+  color: white;
+  padding: 20px 40px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  margin: 4px 2px;
+  cursor: pointer;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+}
+
+.donatebuttonhover:hover {
+  box-shadow: 0 12px 50px 0 rgba(255,255,255, 0.7);
+}
+
+
+.downloadbutton {
+  background-color: #141414; /* Green */
+  border: none;
+  border-radius: 10px;
+  color: white;
+  padding: 20px 40px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  margin: 4px 2px;
+  cursor: pointer;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+}
+
+.downloadbuttonhover:hover {
+  box-shadow: 0 12px 50px 0 rgba(255,255,255, 0.7);
+}
+
+.bylawstag{
+font-size: 40px;
+color: black; 
+margin-top: 30px;
+text-align: center !important;
+}
+
+.bylawsimg{
+  width: 30vw;
+}
+
+
+}
+
+/*Smart Phone Screen*/
+@media all and (max-width: 480px) {
+
+.donatebutton {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  border-radius: 10px;
+  color: white;
+  padding: 9px 18px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+}
+
+.donatebuttonhover:hover {
+  box-shadow: 0 12px 50px 0 rgba(255,255,255, 0.7);
+}
+
+
+.downloadbutton {
+  background-color: #141414; /* Green */
+  border: none;
+  border-radius: 10px;
+  color: white;
+  padding: 9px 18px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+}
+
+.downloadbuttonhover:hover {
+  box-shadow: 0 12px 50px 0 rgba(255,255,255, 0.7);
+}
+
+.show1{
+}
+
+.bylawstag{
+font-size:25px;
+color: black; 
+margin-top: 30px;
+text-align: center !important;
+}
+
+.bylawsimg{
+  width: 75vw;
+}
+
+}

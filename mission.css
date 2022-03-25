@@ -1,0 +1,161 @@
+/*Smart Phone Screem*/
+@media all and (max-width: 480px) {
+
+/*
+.missionstatement {
+  margin-top:  20%;
+  margin-bottom: 0em;
+  font-family: 'Outfit', sans-serif !important;
+  text-align: center;
+  border: none;
+  border-radius: 15px;
+  padding: 25px;
+  color: white;
+  display:inline-block;
+  background-color: black;
+  font-size: 20px;
+  }
+*/
+
+ #inner {
+  width: 100%;
+  margin-top: 0em !important;
+  margin-bottom: 0em !important;
+  font-family: 'Outfit', sans-serif !important;
+  border-radius: 15px;
+  border: none;
+  text-align: center;
+  font-size: 20px;
+  padding:  25px;
+  color: white;
+  display: inline-block !important;
+  background: #141414;
+  box-shadow: 2px 2px 50px rgba(0, 0, 0, 0.2);
+  transition: transform 0.5s;
+  -webkit-transition: transform 0.5s;
+  -moz-transition: transform 0.5s;
+  -o-transition: transform 0.5s;
+}
+ 
+  .quote {
+    font-size: 22px !important;
+    font-family: 'Patua One', cursive;
+  }
+
+
+  .centerall{
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    max-width: 80%;
+}
+
+
+  h1 {
+    font-family: 'Outfit', sans-serif !important;
+    color: black !important;
+    text-align: center !important;
+    font-size: 27px !important;
+  }
+
+
+  .space {
+    margin-top: 50px;
+  }
+
+  .viewsize {
+    height: 170vh !important;
+  }
+
+
+.underline {
+display: inline !important;
+border-bottom: 3px solid #141414;
+}
+
+.centerdisc{
+  text-align: center !important;
+}
+
+.show{
+  display: none !important;
+}
+
+}
+
+  
+
+  /*Any screen bigger than Smart Phone*/
+@media all and (min-width:481px) {
+
+  #inner {
+  width: 100%;
+  margin-top: 0em !important;
+  margin-bottom: 0em !important;
+  font-family: 'Outfit', sans-serif !important;
+  border-radius: 20px;
+  border: none;
+  text-align: center;
+  font-size: 32px;
+  padding:  65px;
+  color: white;
+  background: #141414;
+  display: inline-block !important;
+  box-shadow: 2px 2px 50px rgba(0, 0, 0, 0.2);
+  transition: transform 0.5s;
+  -webkit-transition: transform 0.5s;
+  -moz-transition: transform 0.5s;
+  -o-transition: transform 0.5s;
+}
+
+  .quote {
+    font-size: 35px !important;
+    font-family: 'Patua One', cursive;
+  }
+
+  h1 {
+  font-family: 'Outfit', sans-serif !important;
+  color: black !important;
+  text-align: center !important;
+  font-size: 50px !important;
+}
+
+  .centerall{
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  max-width: 50%;
+  }
+
+  .bodytext {
+  font-family: 'Outfit', sans-serif;
+  color: black;
+  text-align: left;
+  font-size: 25px;
+  margin-top: 22px !important;
+  }
+
+  .space {
+    margin-top: 90px;
+  }
+
+  .viewsize {
+    height: 150vh;
+  }
+
+.underline {
+display: inline !important;
+border-bottom: 3px solid #141414;
+}
+
+.show{
+  
+}
+}
+
+
+#container {
+  perspective: 25px;
+}
