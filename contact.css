@@ -15,7 +15,7 @@
 } */
 
 /* form animation starts COMPUTER */
-@media all and (min-width:481px) {
+@media all and (min-width:600px) {
 
 .form {
   background: white;
@@ -38,7 +38,7 @@
 }
 
 /* form animation starts SMARTPHONE */
-@media all and (max-width: 480px) {
+@media all and (max-width: 599px) {
 
 .form {
   background: white;

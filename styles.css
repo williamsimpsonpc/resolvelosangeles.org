@@ -346,8 +346,8 @@ color:#1DA1F2;
 
 
 
-/*Smart Phone Screem-------------------------------------------------------------------------------------*/
-@media all and (max-width: 480px) {
+/*Smart Phone Screen-------------------------------------------------------------------------------------*/
+@media all and (max-width: 599px) {
 
   .cover {
     position: absolute;
@@ -432,8 +432,8 @@ color:#1DA1F2;
 
 }
 
-/*Any screen bigger than Smart Phone-------------------------------------------------------------------------------------------*/
-@media all and (min-width:481px) {
+/*LARGE SCREEN-------------------------------------------------------------------------------------------*/
+@media all and (min-width:600px) {
 
   .cover {
     position: absolute;
