@@ -430,6 +430,31 @@ color:#1DA1F2;
   box-shadow: 0 12px 50px 0 rgba(255,255,255, 0.7);
 }
 
+#slide {
+    position: absolute;
+    top: 70%;
+    right: -300px;
+    width: 70%;
+    height: 30%;
+    background: #141414;
+    opacity: .70;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    -webkit-animation: slide 2s forwards;
+    -webkit-animation-delay: 2s;
+    animation: slide 2s forwards;
+    animation-delay: 2s;
+    z-index: 9 !important;
+}
+
+@-webkit-keyframes slide {
+    100% { right: 0; }
+}
+
+@keyframes slide {
+    100% { right: 0; }
+}
+
 }
 
 /*LARGE SCREEN-------------------------------------------------------------------------------------------*/
@@ -515,6 +540,32 @@ color:#1DA1F2;
 .donatebuttonhover:hover {
   box-shadow: 0 12px 50px 0 rgba(255,255,255, 0.7);
 }
+
+#slide {
+    position: absolute;
+    top: 50%;
+    right: -300px;
+    width: 30%;
+    height: 50%;
+    background: #141414;
+    opacity: .70;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    -webkit-animation: slide 2s forwards;
+    -webkit-animation-delay: 2s;
+    animation: slide 2s forwards;
+    animation-delay: 2s;
+    z-index: 9 !important;
+}
+
+@-webkit-keyframes slide {
+    100% { right: 0; }
+}
+
+@keyframes slide {
+    100% { right: 0; }
+}
+
 
 }
 
