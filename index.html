@@ -54,7 +54,7 @@
 <!---------------------------------------BODY START------------------------------------------>
 <body style="background-color:#141414">
 <!------------------------------------PRELOADER---------------------------------->
-	<div class="preloader">
+	<div class="preloader"> 
   	<img src="preloader.gif" width="250" alt="spinner">
   </div>
 
@@ -121,6 +121,7 @@
 
 <!--------------------------------------Carousel------------------------------------>
 	<div class="pcf-carousel items-4 cover">
+
 <!---Hidden radio control inputs--->
 		<input type="radio" id="carousel-play" 	  name="pcf-carousel-4" checked>
 		<input type="radio" id="carousel-start-1" name="pcf-carousel-4">
@@ -129,6 +130,7 @@
 		<input type="radio" id="carousel-start-4" name="pcf-carousel-4">
 <!---Pause/play button--->
 		<label for="carousel-play" class="btn-play" title="Play"></label>
+
 <!----Slide jump dots---->
 		<div class="pcf-carousel-dots">
 			<label for="carousel-start-1"></label>
@@ -151,9 +153,11 @@
 			<div class="pcf-carousel-item" style="background-image:url('front/frontimage5.jpg');"></div>
 			<div class="pcf-carousel-item" style="background-image:url('front/frontimage6.jpg');"></div>
 		</div>
+		<div id="slide"></div>
 	</div>
 
-<!------------------------------------COLLECTION------------------------------------>
+<!-------------
+	-----------------------COLLECTION------------------------------------>
 
   <!--
 -----------------------------NAVIGATION BAR------------------------------
@@ -426,5 +430,6 @@ const fadeEffect = setInterval(() => {
             
 window.addEventListener('load');
 	</script>
+
 	</body>
 </html>
