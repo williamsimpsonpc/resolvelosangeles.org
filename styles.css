@@ -445,6 +445,9 @@ color:#1DA1F2;
     animation: slide 2s forwards;
     animation-delay: 2s;
     z-index: 9 !important;
+    font-size: 30px;
+    color: white;
+    text-align: center;
 }
 
 @-webkit-keyframes slide {
@@ -556,6 +559,9 @@ color:#1DA1F2;
     animation: slide 2s forwards;
     animation-delay: 2s;
     z-index: 9 !important;
+    font-size: 30px;
+    color: white;
+    text-align: center;
 }
 
 @-webkit-keyframes slide {

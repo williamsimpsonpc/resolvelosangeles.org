@@ -54,6 +54,11 @@ display: inline !important;
   font-size: 20px !important;
 }
 
+.pronouns{
+  font-size: 13px !important;
+  color: grey;
+}
+
 .titles{
   line-break: normal !important;
   font-size: 12px !important;
@@ -152,6 +157,11 @@ display: inline !important;
 
 .names{
   font-size: 35px !important;
+}
+
+.pronouns{
+  font-size: 20px !important;
+  color: grey;
 }
 
 .titles{
