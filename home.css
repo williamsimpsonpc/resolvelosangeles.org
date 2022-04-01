@@ -1,0 +1,29 @@
+
+.centerhome {
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+color: white;
+}
+
+
+/*Smart Phone Screen*/
+@media all and (max-width: 849px) {
+
+.responsive{
+
+}
+
+
+}
+
+
+/*lARGE SCREEN*/
+@media all and (min-width:850px) {
+
+.responsive{
+	
+}
+
+}
