@@ -126,7 +126,7 @@ border-bottom: 3px solid #141414;
   margin-right: auto;
   left: 0;
   right: 0;
-  max-width: 50%;
+  max-width: 75%;
   }
 
   .bodytext {
@@ -165,7 +165,70 @@ border-bottom: 3px solid #141414;
 }
 
 
-/*Template Designs*/
+/*COMPUTER get involved buttons--------------------------*/
+@media all and (min-width:850px) {
+
+.getinvolved {
+  background-color: #4169E1; /* Green */
+  border: none;
+  border-radius: 10px;
+  color: white;
+  padding: 15px 30px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  margin: 4px 2px;
+  cursor: pointer;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+}
+
+.getinvolvedhover:hover {
+  box-shadow: 0 12px 50px 0 rgba(255,255,255, 0.7);
+}
+
+.blankspace{
+  height: 10vh !important;
+}
+
+}
+
+
+/*SMART PHONE get involved buttons-----------------------*/
+@media all and (max-width: 849px) {
+
+.getinvolved {
+  background-color: #7093FF; /* Green */
+  border: none;
+  border-radius: 10px;
+  color: white;
+  padding: 18px 24px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+}
+
+.getinvolvedhover:hover {
+  box-shadow: 0 12px 50px 0 rgba(255,255,255, 0.7);
+}
+
+.blankspace{
+  height: 2vh !important;
+}
+
+}
+
+
+
+
+
+/*Template Designs-----------------------------------------------*/
 
 .w3-container:after,.w3-container:before,.w3-panel:after,.w3-panel:before,.w3-row:after,.w3-row:before,.w3-row-padding:after,.w3-row-padding:before,
 .w3-cell-row:before,.w3-cell-row:after,.w3-clear:after,.w3-clear:before,.w3-bar:before,.w3-bar:after {
@@ -173,7 +236,7 @@ border-bottom: 3px solid #141414;
 }
 
 .w3-col,.w3-half,.w3-third,.w3-twothird,.w3-threequarter,.w3-quarter {
-  float:left;width:100%
+  float:left;width:100%;
 }
 
 
@@ -247,13 +310,14 @@ width:33.33333%
 .w3-col.m12 {
   width:99.99999%
 }
-
-}
-
-
 .w3-row-padding,.w3-row-padding>.w3-half,.w3-row-padding>.w3-third,.w3-row-padding>.w3-twothird,.w3-row-padding>.w3-threequarter,.w3-row-padding>.w3-quarter,.w3-row-padding>.w3-col {
-  padding:0 8px
+  padding:0 25px;
 }
+
+}
+
+
+
 
 .w3-container,.w3-panel {
   padding:0.01em 16px

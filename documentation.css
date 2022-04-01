@@ -7,7 +7,7 @@
 
 
 /*lARGE SCREEN*/
-@media all and (min-width:600px) {
+@media all and (min-width:850px) {
 
 .donatebutton {
   background-color: #4CAF50; /* Green */
@@ -65,7 +65,7 @@ text-align: center !important;
 }
 
 /*Smart Phone Screen*/
-@media all and (max-width: 599px) {
+@media all and (max-width: 849px) {
 
 .donatebutton {
   background-color: #4CAF50; /* Green */
