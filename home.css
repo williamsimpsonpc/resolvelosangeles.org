@@ -11,19 +11,83 @@ color: white;
 /*Smart Phone Screen*/
 @media all and (max-width: 849px) {
 
-.responsive{
+.buttonstyle {
+  color:  #989898;
+  font-family:'Bebas Neue', cursive;
+  font-size:1.6em;
+  transition-duration: .25s;
+  display: block;
+  text-decoration: none;
+  margin-bottom: 10px;
+}
+
+.buttonstyle:hover {
+  color: white;
+}
+
+.circlestyle{
+width: 150px;
+
+}
+.time{
+  color: white;
+  font-family:'Noto Sans';
+  font-size:20px;
+  display: block;
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+
+.watchsmall{
+}
+
+.watchbig{
+display: none !important;
+}
+
+
 
 }
 
 
-}
-
-
-/*lARGE SCREEN*/
+/*Large Screen*/
 @media all and (min-width:850px) {
 
-.responsive{
-	
+.buttonstyle {
+  color:  #989898;
+  font-family:'Bebas Neue', cursive;
+  font-size:2em;
+  transition-duration: .25s;
+  display: block;
+  text-decoration: none;
+  margin-bottom: 10px;
+}
+
+.buttonstyle:hover {
+  color: white;
+}
+
+.circlestyle{
+width: 180px;
+
+}
+
+
+.time{
+  color: white;
+  font-family:'Noto Sans';
+  font-size:1em;
+  display: block;
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+
+
+.watchbig{
+}
+
+.watchsmall{
+	display: none !important;
 }
 
 }
