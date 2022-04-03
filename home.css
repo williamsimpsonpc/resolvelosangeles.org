@@ -14,7 +14,7 @@ color: white;
 .buttonstyle {
   color:  #989898;
   font-family:'Bebas Neue', cursive;
-  font-size:1.6em;
+  font-size:1.8em;
   transition-duration: .25s;
   display: block;
   text-decoration: none;
@@ -26,16 +26,16 @@ color: white;
 }
 
 .circlestyle{
-width: 150px;
+width: 175px;
 
 }
 .time{
   color: white;
   font-family:'Noto Sans';
-  font-size:20px;
+  font-size:16px;
   display: block;
-  margin-top: 10px;
-  margin-bottom: 30px;
+  margin-top: 20px;
+  margin-bottom: 45px;
 }
 
 .watchsmall{
@@ -78,7 +78,7 @@ width: 180px;
   font-family:'Noto Sans';
   font-size:1em;
   display: block;
-  margin-top: 10px;
+  margin-top: 15px;
   margin-bottom: 30px;
 }
 
