@@ -436,18 +436,28 @@ color:#1DA1F2;
     right: -300px;
     width: 70%;
     height: 30%;
-    background: #141414;
-    opacity: .70;
-    backdrop-filter: blur(10px);
-    -webkit-backdrop-filter: blur(10px);
+    background: rgba(20, 20, 20, .60);
+    backdrop-filter: blur(15px);
+    -webkit-backdrop-filter: blur(15px);
     -webkit-animation: slide 2s forwards;
     -webkit-animation-delay: 2s;
     animation: slide 2s forwards;
     animation-delay: 2s;
     z-index: 9 !important;
-    font-size: 30px;
     color: white;
     text-align: center;
+    border-top-left-radius: 15px;
+}
+
+
+.slideheader{
+  color: white;
+  font-size: 30px;
+  font-family: 'Bebas Neue', cursive;
+}
+.slidecontent{
+  color: white;
+  font-size: 20px;
 }
 
 @-webkit-keyframes slide {
@@ -550,18 +560,28 @@ color:#1DA1F2;
     right: -300px;
     width: 30%;
     height: 50%;
-    background: #141414;
-    opacity: .70;
-    backdrop-filter: blur(10px);
-    -webkit-backdrop-filter: blur(10px);
+    background: rgba(20, 20, 20, .60);
+    backdrop-filter: blur(15px);
+    -webkit-backdrop-filter: blur(15px);
     -webkit-animation: slide 2s forwards;
     -webkit-animation-delay: 2s;
     animation: slide 2s forwards;
     animation-delay: 2s;
     z-index: 9 !important;
-    font-size: 30px;
     color: white;
     text-align: center;
+    border-top-left-radius: 15px;
+}
+
+.slideheader{
+  color: white;
+  font-size: 30px;
+  font-family: 'Bebas Neue', cursive;
+}
+
+.slidecontent{
+  color: white;
+  font-size: 20px;
 }
 
 @-webkit-keyframes slide {
