@@ -1,0 +1,41 @@
+.donorbox{
+max-width: 500px;
+min-width: 250px;
+max-height:none !important;
+}
+
+.donoralign{
+	text-align: right !important;
+}
+
+
+
+
+/*Smart Phone Screem*/
+@media all and (max-width: 480px) {
+
+  .centerall2{
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    max-width: 80%;
+}
+
+}
+
+
+
+
+  /*Any screen bigger than Smart Phone*/
+@media all and (min-width:481px) {
+
+  .centerall2{
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  max-width: 95%;
+  }
+
+}
