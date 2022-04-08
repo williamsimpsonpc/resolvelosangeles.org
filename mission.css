@@ -1,26 +1,10 @@
 /*Smart Phone Screem*/
 @media all and (max-width: 849px) {
 
-/*
-.missionstatement {
-  margin-top:  20%;
-  margin-bottom: 0em;
-  font-family: 'Outfit', sans-serif !important;
-  text-align: center;
-  border: none;
-  border-radius: 15px;
-  padding: 25px;
-  color: white;
-  display:inline-block;
-  background-color: black;
-  font-size: 20px;
-  }
-*/
+
 
  #inner {
   width: 100%;
-  margin-top: 0em !important;
-  margin-bottom: 0em !important;
   font-family: 'Outfit', sans-serif !important;
   border-radius: 15px;
   border: none;
@@ -76,10 +60,6 @@ border-bottom: 3px solid #141414;
 
 .centerdisc{
   text-align: center !important;
-}
-
-.show{
-  display: none !important;
 }
 
 }
@@ -149,12 +129,6 @@ border-bottom: 3px solid #141414;
 display: inline !important;
 border-bottom: 3px solid #141414;
 }
-
-.show{
-  
-}
-}
-
 
 #container {
   perspective: 25px;
