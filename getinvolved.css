@@ -199,7 +199,8 @@ border-bottom: 3px solid #141414;
 @media all and (max-width: 849px) {
 
 .more {
-  background-color: #7093FF; /* Green */
+/*GREEN rgb(125, 192, 67)   BLUE #7093FF  DARK #141414*/
+  background-color: rgb(125, 192, 67);
   border: none;
   border-radius: 10px;
   color: white;
@@ -213,6 +214,7 @@ border-bottom: 3px solid #141414;
   -webkit-transition-duration: 0.4s; /* Safari */
   transition-duration: 0.4s;
 }
+
 
 .morehover:hover {
   box-shadow: 0 12px 50px 0 rgba(255,255,255, 0.7);
@@ -368,5 +370,38 @@ header {
 }
 
 
+.backdrop{
+  background-image: url("lariverbackdrop.jpg");
+  background-color: #cccccc;
+  position: relative !important;
+}
 
+.donate3rd{
+  background-color: white;
+  border: 3px solid #7093FF;
+  border-radius: 10px;
+}
 
+.volunteer3rd{
+  background-color: white;
+  border: 3px solid rgb(125, 192, 67);
+  border-radius: 10px;
+}
+
+.spreadawareness3rd{
+  background-color: white;
+  border: 3px solid #141414;
+  border-radius: 10px;
+}
+
+.moredonatecolor{
+background-color: #7093FF;
+}
+
+.morevolunteercolor{
+background-color: rgb(125, 192, 67);
+}
+
+.morespreadawarenesscolor{
+background-color: #141414;
+}
