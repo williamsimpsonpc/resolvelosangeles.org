@@ -1,5 +1,43 @@
 /*Smart Phone Screem*/
 @media all and (max-width: 480px) {
+
+.donorbox{
+  max-width: 500px;
+  min-width: 250px;
+  max-height: none !important;
+  padding-top: 15px;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+  .title{
+  font-family: 'Outfit', sans-serif !important;
+  color: black !important;
+  font-size: 20px !important;
+  padding-top: 75px;
+  text-decoration: underline;
+}
+
+.heading{
+  font-family: 'Outfit', sans-serif !important;
+  color: black !important;
+  font-size: 10px !important;
+  text-decoration: underline;
+
+}
+
+.topspace{
+  margin-top: 200px !important;
+}
+
+.showpc{
+  display: none !important;
+}
+
+.showmobile{
+}
+
+
 }
 
 
@@ -67,6 +105,13 @@
   left: 50%;
   transform: translate(-50%, -50%);
   text-align: center;
+}
+
+.showpc{
+}
+
+.showmobile{
+  display: none !important;
 }
 
 }
