@@ -1,3 +1,63 @@
+/*Smart Phone Screem*/
+@media all and (max-width: 480px) {
+}
+
+
+
+
+  /*Any screen bigger than Smart Phone*/
+@media all and (min-width:481px) {
+
+  #dialogInvoice {
+  width: 400px;
+  height: 450px;
+  margin: auto;
+  position: relative !important;
+  top: 35%;
+}
+
+.split {
+  height: 100%;
+  width: 50%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  overflow-x: hidden;
+}
+
+.left{
+  left: 0;
+  background-color: white;
+  padding-top: 150px !important;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.right{
+  right: 0;
+  background-color: #7093FF;
+}
+
+.title{
+  font-family: 'Outfit', sans-serif !important;
+  color: black !important;
+  font-size: 30px !important;
+  padding-top: 75px;
+  text-decoration: underline;
+}
+
+.heading{
+  font-family: 'Outfit', sans-serif !important;
+  color: black !important;
+  font-size: 23px !important;
+  text-decoration: underline;
+
+}
+
+.topspace{
+  margin-top: 200px !important;
+}
+
 .donorbox{
 }
 
@@ -9,43 +69,6 @@
   text-align: center;
 }
 
-
-/*Smart Phone Screem*/
-@media all and (max-width: 480px) {
 }
 
-
-
-
-  /*Any screen bigger than Smart Phone*/
-@media all and (min-width:481px) {
-}
-
-#dialogInvoice {
-  width: 400px;
-  height: 900px;
-  margin: auto;
-  position: relative !important;
-  top: 50%;
-}
-
-.split {
-  height: 100%;
-  width: 50%;
-  position: fixed;
-  z-index: 1;
-  top: 0;
-  overflow-x: hidden;
-  padding-top: 20px;
-}
-
-.left{
-  left: 0;
-  background-color: white;
-}
-
-.right{
-  right: 0;
-  background-color: #7093FF;
-}
 
