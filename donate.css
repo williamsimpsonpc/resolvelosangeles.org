@@ -1,4 +1,4 @@
-/*Smart Phone Screem*/
+/*Small Screens*/
 @media all and (max-width: 480px) {
 
 .donorbox{
@@ -6,23 +6,19 @@
   min-width: 250px;
   max-height: none !important;
   padding-top: 15px;
-  padding-right: 15px;
-  padding-left: 15px;
 }
 
   .title{
   font-family: 'Outfit', sans-serif !important;
   color: black !important;
-  font-size: 20px !important;
+  font-size: 30px !important;
   padding-top: 75px;
-  text-decoration: underline;
 }
 
 .heading{
   font-family: 'Outfit', sans-serif !important;
   color: black !important;
-  font-size: 10px !important;
-  text-decoration: underline;
+  font-size: 20px !important;
 
 }
 
@@ -37,13 +33,24 @@
 .showmobile{
 }
 
+.textbox{
+  font-family: 'Outfit', sans-serif !important;
+  color: black !important;
+  font-size: 23px !important;
+  border-radius: 15px;
+  border: none;
+  padding:  20px;
+  background: #7093FF;
+  display: inline-block !important;
+  box-shadow: 2px 2px 50px rgba(0, 0, 0, 0.2);
+  }
 
 }
 
 
 
 
-  /*Any screen bigger than Smart Phone*/
+  /*Large Screens*/
 @media all and (min-width:481px) {
 
   #dialogInvoice {
@@ -74,22 +81,16 @@
 .right{
   right: 0;
   background-color: #7093FF;
+  background-image: url("lariverbackdrop.jpg");
+  background-color: #cccccc;
 }
+
 
 .title{
   font-family: 'Outfit', sans-serif !important;
   color: black !important;
   font-size: 30px !important;
   padding-top: 75px;
-  text-decoration: underline;
-}
-
-.heading{
-  font-family: 'Outfit', sans-serif !important;
-  color: black !important;
-  font-size: 23px !important;
-  text-decoration: underline;
-
 }
 
 .topspace{
@@ -114,6 +115,21 @@
   display: none !important;
 }
 
+.textbox{
+  font-family: 'Outfit', sans-serif !important;
+  color: black !important;
+  font-size: 23px !important;
+  border-radius: 15px;
+  border: none;
+  padding:  20px;
+  background: #7093FF;
+  display: inline-block !important;
+  box-shadow: 2px 2px 50px rgba(0, 0, 0, 0.2);
+  }
+
 }
 
 
+.centertext{
+  text-align: center !important;
+}
