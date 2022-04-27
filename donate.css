@@ -33,17 +33,32 @@
 .showmobile{
 }
 
-.textbox{
+.boxtext{
   font-family: 'Outfit', sans-serif !important;
   color: black !important;
-  font-size: 23px !important;
+  font-size: 20px !important;
   border-radius: 15px;
   border: none;
-  padding:  20px;
+  padding:  18px;
   background: #7093FF;
   display: inline-block !important;
-  box-shadow: 2px 2px 50px rgba(0, 0, 0, 0.2);
+  box-shadow: 2px 2px 35px rgba(0, 0, 0, 0.2);
+  margin-bottom: 5px;
   }
+
+  .bodytext{
+    font-family: 'Outfit', sans-serif !important;
+    color: black !important;
+    font-size: 18px !important;
+    margin-bottom: 30px;
+  }
+
+
+  .mobilepadding{
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
 
 }
 
@@ -67,7 +82,7 @@
   position: fixed;
   z-index: 1;
   top: 0;
-  overflow-x: hidden;
+  overflow-x: scroll;
 }
 
 .left{
@@ -115,17 +130,26 @@
   display: none !important;
 }
 
-.textbox{
+.boxtext{
   font-family: 'Outfit', sans-serif !important;
   color: black !important;
   font-size: 23px !important;
   border-radius: 15px;
   border: none;
-  padding:  20px;
+  padding:  10px;
   background: #7093FF;
   display: inline-block !important;
   box-shadow: 2px 2px 50px rgba(0, 0, 0, 0.2);
+  margin-bottom: 5px;
   }
+
+  .bodytext{
+    font-family: 'Outfit', sans-serif !important;
+    color: black !important;
+    font-size: 20px !important;
+    margin-bottom: 30px;
+  }
+
 
 }
 

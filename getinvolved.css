@@ -371,7 +371,8 @@ header {
 
 
 .backdrop{
-  background-image: url("lariverbackdrop.jpg");
+  background-image: url("lariverbackdrop2.jpeg");
+  background-size: cover;
   background-color: #cccccc;
   position: relative !important;
 }
