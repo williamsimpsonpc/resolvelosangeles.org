@@ -1,5 +1,5 @@
 /*Smart Phone Screem*/
-@media all and (max-width: 480px) {
+@media all and (max-width: 799px) {
 
 /*
 .missionstatement {
@@ -87,7 +87,7 @@ border-bottom: 3px solid #141414;
   
 
   /*Any screen bigger than Smart Phone*/
-@media all and (min-width:481px) {
+@media all and (min-width:800px) {
 
   #inner {
   width: 100%;
