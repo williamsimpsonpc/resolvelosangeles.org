@@ -78,10 +78,6 @@ border-bottom: 3px solid #141414;
   text-align: center !important;
 }
 
-.show{
-  display: none !important;
-}
-
 }
 
   
@@ -150,9 +146,6 @@ display: inline !important;
 border-bottom: 3px solid #141414;
 }
 
-.show{
-  
-}
 }
 
 

@@ -71,8 +71,9 @@
     color: black !important;
     font-size: 18px !important;
     margin-bottom: 40px;
-    margin-right: 15px;
-    margin-left: 15px;
+    margin-right: 25px;
+    margin-left: 25px;
+    text-align: justify !important;
   }
 
   .bodytext2{
@@ -312,11 +313,11 @@ border-bottom-right-radius: 20px;
  }
 
 #wrapshelter {
-  margin: 3em 0em;
+  margin: 2em 0em;
 }
 
 #wrapfolar{
-  margin: 3em 0em;
+  margin: 2em 0em;
 }
 
 .leftwrap {
