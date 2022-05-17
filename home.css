@@ -2,7 +2,7 @@
 .centerhome {
 position: absolute;
 top: 50%;
-left: 55%;
+left: 50%;
 transform: translate(-50%, -50%);
 color: white;
 }
@@ -43,6 +43,13 @@ width: 155px;
 
 .watchbig{
 display: none !important;
+}
+
+.computershow{
+display: none !important;
+}
+
+.mobileshow{
 }
 
 }
@@ -109,5 +116,11 @@ div.slide-down p {
   }
 }
 
+.computershow{
+}
+
+.mobileshow{
+  display: none !important;
+}
 
 }
