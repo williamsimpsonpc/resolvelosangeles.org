@@ -347,7 +347,7 @@ color:#1DA1F2;
 
 
 /*Smart Phone Screen-------------------------------------------------------------------------------------*/
-@media all and (max-width: 599px) {
+@media all and (max-width: 849px) {
 
   .cover {
     position: absolute;
@@ -468,10 +468,26 @@ color:#1DA1F2;
     100% { right: 0; }
 }
 
+.py-5 {
+  padding-top: 2rem !important;
+  padding-bottom: 2rem !important;
+}
+
+.spinningcircle{
+ width: 110px;
+ position: absolute;
+}
+
+.logotext{
+  font-size: 17px;
+  font-family: 'Bebas Neue', cursive;
+  position: absolute;
+}
+
 }
 
 /*LARGE SCREEN-------------------------------------------------------------------------------------------*/
-@media all and (min-width:600px) {
+@media all and (min-width:850px) {
 
   .cover {
     position: absolute;
@@ -592,6 +608,21 @@ color:#1DA1F2;
     100% { right: 0; }
 }
 
+.py-5 {
+  padding-top: 3rem !important;
+  padding-bottom: 3rem !important;
+}
+
+.spinningcircle{
+ width: 135px;
+ position: absolute;
+}
+
+.logotext{
+  font-size: 21px;
+  font-family: 'Bebas Neue', cursive;
+  position: absolute;
+}
 
 }
 
@@ -6807,10 +6838,6 @@ textarea.form-control-lg {
   padding-bottom: 1.5rem !important;
 }
 
-.py-5 {
-  padding-top: 3rem !important;
-  padding-bottom: 3rem !important;
-}
 
 .pt-0 {
   padding-top: 0 !important;
