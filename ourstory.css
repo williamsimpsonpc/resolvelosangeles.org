@@ -101,17 +101,6 @@ border-bottom: 3px solid #141414;
   margin: auto;
 }
 
-.spinningcircle{
- width: 110px;
- position: absolute;
-}
-
-.logotext{
-  font-size: 17px;
-  font-family: 'Bebas Neue', cursive;
-  position: absolute;
-}
-
 }
 
 
@@ -210,18 +199,6 @@ border-bottom: 3px solid #141414;
 .aboutusphotossmall{
  display: none;
 }
-
-.spinningcircle{
- width: 135px;
- position: absolute;
-}
-
-.logotext{
-  font-size: 21px;
-  font-family: 'Bebas Neue', cursive;
-  position: absolute;
-}
-
 
 }
 
