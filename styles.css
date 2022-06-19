@@ -496,6 +496,8 @@ color:#1DA1F2;
   margin-bottom: 20px;
 }
 
+
+
 .dim {
     display: block;
     height: 100%;
@@ -510,6 +512,7 @@ color:#1DA1F2;
 .dim:hover {
     opacity: .75;
 }
+
 
 }
 
@@ -670,16 +673,15 @@ color:#1DA1F2;
     height: 100%;
     width: 100%;
     opacity: 1;
-    background: rgba(255,0,0);
     -moz-transition: all .5s;
     -webkit-transition: all .5s;
     transition: all .5s;
 }
 
 .dim:hover {
-    opacity: .75;
-    background: rgba(255,0,0);
+    opacity: 0;
 }
+
 
 }
 
@@ -1781,7 +1783,7 @@ progress {
   color: #6c757d;
 }
 .blockquote-footer::before {
-  content: "— ";
+  content: "— ";
 }
 
 .img-fluid {
@@ -6780,7 +6782,7 @@ textarea.form-control-lg {
 }
 
 .mb-5 {
-  margin-bottom: 1.5rem !important;
+  margin-bottom: 3rem !important;
 }
 
 .mb-auto {
