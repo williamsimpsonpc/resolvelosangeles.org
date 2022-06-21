@@ -493,31 +493,17 @@ color:#1DA1F2;
   margin-left: auto;
   margin-right: auto;
   margin-top: 30px;
-  margin-bottom: 20px;
 }
 
-
-
-.dim {
-    display: block;
-    height: 100%;
-    width: 100%;
-    opacity: 1;
-    background: rgba(0,0,0,.5);
-    -moz-transition: all .5s;
-    -webkit-transition: all .5s;
-    transition: all .5s;
+.pcview{
+  position: ;
+  display: none !important;
 }
-
-.dim:hover {
-    opacity: .75;
-}
-
 
 }
 
 /*LARGE SCREEN-------------------------------------------------------------------------------------------*/
-@media all and (min-width:850px) {
+@media all and (min-width:1080px) {
 
   .cover {
     position: absolute;
@@ -682,6 +668,12 @@ color:#1DA1F2;
     opacity: 0;
 }
 
+.difsize{
+  height: 75%;
+}
+
+.pcview{
+}
 
 }
 
@@ -893,6 +885,148 @@ color:#1DA1F2;
   animation-name: pcf-carousel-clear;
 }
 
+/* 2 Items*/
+.pcf-carousel.items-2 .moving-strip {
+  width: 250%;
+}
+
+.pcf-carousel.items-4 #carousel-start-1:checked ~ .moving-strip {
+  animation-name: pcf-carousel-clear;
+  transform: translateX(0);
+}
+
+.pcf-carousel.items-4 #carousel-start-2:checked ~ .moving-strip {
+  animation-name: pcf-carousel-clear;
+  transform: translateX(-20%);
+}
+
+
+.pcf-carousel.items-2 .moving-strip {
+  animation-name: pcf-carousel-4;
+    animation-duration: 9s;
+}
+
+
+@keyframes pcf-carousel-4 {  
+  0% { transform: translateX(0); }
+  15% { transform: translateX(0); } 
+  
+    20% { transform: translateX(-20%); }
+  40% { transform: translateX(-20%); }
+  
+  45% { transform: translateX(-40%); }
+  65% { transform: translateX(-40%); }
+  
+    70% { transform: translateX(-60%); }
+  90% { transform: translateX(-60%); }
+  
+  95% { transform: translateX(-80%); }
+  100% { transform: translateX(-80%); }
+}
+
+
+.pcf-carousel.items-2 .pcf-carousel-anime-dots div:nth-child(1) {
+  animation-name: pcf-carousel-dots-4-items-dots-1;
+  animation-duration: 9s;
+  animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+}
+
+@keyframes pcf-carousel-dots-2-items-dots-1 {  
+  0% { background-color: white; }
+  15% { background-color: white; }  
+  
+    20% { background-color: transparent; }
+  40% { background-color: transparent; }
+  
+  45% { background-color: transparent; }
+  65% { background-color: transparent; }
+  
+  70% { background-color: transparent; }
+  90% { background-color: transparent; }
+  
+    95% { background-color: white; }
+  100% { background-color: white; }
+}
+
+.pcf-carousel.items-2 .pcf-carousel-anime-dots div:nth-child(2) {
+  animation-name: pcf-carousel-dots-4-items-dots-2;
+  animation-duration: 9s;
+  animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+}
+
+@keyframes pcf-carousel-dots-2-items-dots-2 {  
+  0% { background-color: transparent; }
+  15% { background-color: transparent; }  
+  
+    20% { background-color: white; }
+  40% { background-color: white; }
+  
+  45% { background-color: transparent; }
+  65% { background-color: transparent; }
+  
+  70% { background-color: transparent; }
+  90% { background-color: transparent; }
+  
+    95% { background-color: transparent; }
+  100% { background-color: transparent; }
+}
+
+.pcf-carousel.items-2 .pcf-carousel-anime-dots div:nth-child(3) {
+  animation-name: pcf-carousel-dots-4-items-dots-3;
+  animation-duration: 0s;
+  animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+}
+
+@keyframes pcf-carousel-dots-4-items-dots-3 {  
+  0% { background-color: transparent; }
+  15% { background-color: transparent; }  
+  
+    20% { background-color: transparent; }
+  40% { background-color: transparent; }
+  
+  45% { background-color: white; }
+  65% { background-color: white; }
+  
+  70% { background-color: transparent; }
+  90% { background-color: transparent; }
+  
+    95% { background-color: transparent; }
+  100% { background-color: transparent; }
+}
+
+.pcf-carousel.items-4 .pcf-carousel-anime-dots div:nth-child(4) {
+  animation-name: pcf-carousel-dots-4-items-dots-4;
+  animation-duration: 18s;
+  animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+}
+
+@keyframes pcf-carousel-dots-4-items-dots-4 {  
+  0% { background-color: transparent; }
+  15% { background-color: transparent; }  
+  
+    20% { background-color: transparent; }
+  40% { background-color: transparent; }
+  
+  45% { background-color: transparent; }
+  65% { background-color: transparent; }
+  
+  70% { background-color: white; }
+  90% { background-color: white; }
+  
+    95% { background-color: transparent; }
+  100% { background-color: transparent; }
+}
+
+.pcf-carousel.items-4 #carousel-start-1:checked ~ .pcf-carousel.items-4 .pcf-carousel-anime-dots div:nth-child(1),
+.pcf-carousel.items-4 #carousel-start-2:checked ~ .pcf-carousel.items-4 .pcf-carousel-anime-dots div:nth-child(2),
+.pcf-carousel.items-4 #carousel-start-3:checked ~ .pcf-carousel.items-4 .pcf-carousel-anime-dots div:nth-child(3),
+.pcf-carousel.items-4 #carousel-start-4:checked ~ .pcf-carousel.items-4 .pcf-carousel-anime-dots div:nth-child(4) {
+  animation-name: pcf-carousel-clear;
+}
 
 /* 4 Items*/
 .pcf-carousel.items-4 .moving-strip {
@@ -6862,9 +6996,10 @@ textarea.form-control-lg {
 }
 
 .px-4 {
-  padding-right: 1.5rem !important;
-  padding-left: 1.5rem !important;
+  padding-right: 1.5rem;
+  padding-left: 1.5rem;
 }
+
 
 .px-5 {
   padding-right: 3rem !important;
