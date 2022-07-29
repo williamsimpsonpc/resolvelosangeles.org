@@ -2857,9 +2857,7 @@ progress {
 
   .row-cols-xl-2 > * {
     flex: 0 0 auto;
-    width: 38%;
-    margin-right:  20px;
-    margin-left: 20px;
+    width: 33%;
   }
 
   .row-cols-xl-3 > * {
@@ -6984,8 +6982,8 @@ textarea.form-control-lg {
 }
 
 .px-4 {
-  padding-right: 1.5rem;
-  padding-left: 1.5rem;
+  padding-right: .5rem;
+  padding-left: .5rem;
 }
 
 
