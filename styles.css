@@ -338,7 +338,7 @@ color:#1DA1F2;
   .cover {
     position: absolute;
   object-fit: cover;
-  width: 100vw !important;
+  width: 100% !important;
   height: 50vh !important;
   }
 
@@ -496,7 +496,7 @@ color:#1DA1F2;
   .cover {
     position: absolute;
   object-fit: cover;
-  width: 100vw !important;
+  width: 100% !important;
   height: 65vh !important;
 }
 
