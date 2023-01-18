@@ -22,6 +22,23 @@
   animation: bounce 5s infinite;
 }
 
+.form2 {
+  background: #FFFFFF;
+  box-shadow: 0 30px 60px 0 rgba(90, 116, 148, 0.4);
+  border-radius: 9px;
+  max-width: 480px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  left: 0;
+  right: 0;
+  position: absolute;
+  top: 30%;
+  border: 3px solid #141414;
+  animation: bounce 5s infinite;
+}
+
 }
 
 /*Small Screen*/
@@ -29,6 +46,20 @@
 
 .form {
   background: #141414;
+  box-shadow: 0 30px 60px 0 rgba(90, 116, 148, 0.4);
+  border-radius: 9px;
+  max-width: 85%;
+  margin: auto;
+  left: 0;
+  right: 0;
+  position: absolute;
+  top: 30%;
+  border: 3px solid #141414;
+  animation: bounce 5s infinite;
+}
+
+.form2 {
+  background: #FFFFFF;
   box-shadow: 0 30px 60px 0 rgba(90, 116, 148, 0.4);
   border-radius: 9px;
   max-width: 85%;
@@ -57,6 +88,11 @@
 .pageTitle{
   font-size: 1.5em;
   color: white;
+}
+
+.pageTitle2{
+  font-size: 1.5em;
+  color: #141414;
 }
 
 .name {

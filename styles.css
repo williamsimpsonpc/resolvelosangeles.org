@@ -644,7 +644,9 @@ color:#1DA1F2;
 
 .dim {
     display: block;
+    /*
     height: 100%;
+    */
     width: 100%;
     opacity: 1;
     -moz-transition: all .5s;

@@ -2,22 +2,20 @@
 @media all and (max-width: 799px) {
 
 .donorbox{
-  max-width: 500px;
-  min-width: 250px;
-  max-height: none !important;
-  padding-top: 15px;
-  padding-left: 15px !important;
-  padding-right: 15px !important;
+    
+  padding-top: 10px;
+  padding-left: 0px !important;
+  padding-right: 0px !important;
 }
 
   #dialogInvoice {
-  width: 400px;
-  height: 450px;
+  
   margin: auto;
   position: relative !important;
-  top: 35%;
-  margin-left: 15px !important;
-  margin-right:  15px !important;
+ 
+  margin-left: 0px !important;
+  margin-right:  0px !important;
+  
 }
 
   .title{
@@ -44,7 +42,7 @@
   margin-top: 200px !important;
 }
 
-.showpc{
+.xshowpc{
   display: none !important;
 }
 
@@ -111,12 +109,21 @@ border-top-left-radius: 10px;
 border-bottom-left-radius: 10px;
 }
 
+.shelterbox {
+  padding-left: 80px;
+}
+
 .folarimg{
 width: auto;
 height: 100%;
 border-top-right-radius: 10px;
 border-bottom-right-radius: 10px;
 }
+
+.folarbox {
+  padding-right: 20px;
+}
+
 
 .shelterbackground{
   width: 100% !important;
@@ -175,6 +182,12 @@ border-bottom-right-radius: 10px;
   text-align: right !important;
 }
 
+
+#textside {
+  margin-top: 80px;
+
+}
+
 }
 
 
@@ -189,6 +202,7 @@ border-bottom-right-radius: 10px;
   position: relative !important;
   top: 35%;
   margin-right: 15;
+
 }
 
 .split {
@@ -209,7 +223,9 @@ border-bottom-right-radius: 10px;
 .right{
   right: 0;
   background-color: #7093FF;
-  background-image: url("lariverbackdrop.webp");
+  background-image: url("lariverbackdrop.jpg");
+  background-position: center;
+  background-size: cover;
   background-color: #cccccc;
 }
 
@@ -219,7 +235,7 @@ border-bottom-right-radius: 10px;
   color: black !important;
   font-size: 30px !important;
   padding-top: 75px;
-  padding-bottom: 100px !important;
+  padding-bottom: 50px !important;
   padding-left: 20px;
   padding-right: 20px;
 }
@@ -243,7 +259,7 @@ border-bottom-right-radius: 10px;
 .showpc{
 }
 
-.showmobile{
+.xshowmobile{
   display: none !important;
 }
 
@@ -295,12 +311,22 @@ border-bottom-left-radius: 20px;
 
 }
 
+.shelterbox {
+  padding-left: 200px;
+}
+
+
 .folarimg{
 width: auto;
 height: 100%;
 border-top-right-radius: 20px;
 border-bottom-right-radius: 20px;
 }
+
+.folarbox {
+  padding-right: 200px;
+}
+
 
 .shelterbackground{
   width: 100% !important;
@@ -347,7 +373,7 @@ border-bottom-right-radius: 20px;
 }
 
 .alignshelter{
-  padding-right: 50px !important;
+  padding-right: 30px !important;
   text-align: left !important;
 }
 
@@ -367,4 +393,8 @@ border-bottom-right-radius: 20px;
 
 .centertext{
   text-align: center !important;
+}
+
+h3 {
+  text-decoration: underline;
 }
