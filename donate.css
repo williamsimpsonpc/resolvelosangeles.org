@@ -92,6 +92,11 @@
 
 }
 
+.teamxiiimg{
+    width: 50px;
+    height:  50px;
+}
+
 
 
 /*SHELTER-FOLAR IMAGES*/
@@ -113,6 +118,14 @@ border-bottom-left-radius: 10px;
   padding-left: 80px;
 }
 
+.folarbox {
+  padding-right: 20px;
+}
+
+.teamxiibox{
+  padding-left: 20px;
+}
+
 .folarimg{
 width: auto;
 height: 100%;
@@ -120,9 +133,13 @@ border-top-right-radius: 10px;
 border-bottom-right-radius: 10px;
 }
 
-.folarbox {
-  padding-right: 20px;
+.teamxiiimg{
+width: auto;
+height: 100%;
+border-top-left-radius: 10px;
+border-bottom-left-radius: 10px;
 }
+
 
 
 .shelterbackground{
@@ -141,6 +158,14 @@ border-bottom-right-radius: 10px;
   border-bottom-right-radius: 10px;
 }
 
+.teamxiibackground{
+  width: 100% !important;
+  height: 200px !important;
+  background-color: #FF5F1F;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
  #right{    
  text-align: right;
  }
@@ -150,6 +175,10 @@ border-bottom-right-radius: 10px;
 }
 
 #wrapfolar{
+  margin: 1em 0em;
+}
+
+#wrapteamxii {
   margin: 1em 0em;
 }
 
@@ -180,6 +209,12 @@ border-bottom-right-radius: 10px;
   padding-right: 5px !important;
   padding-left: 0px !important;
   text-align: right !important;
+}
+
+.alignteamxii{
+  padding-left: 5px !important;
+  padding-right: 0px !important;
+  text-align: left !important;
 }
 
 
@@ -308,8 +343,15 @@ width: auto;
 height: 100%;
 border-top-left-radius: 20px;
 border-bottom-left-radius: 20px;
-
 }
+
+.teamxiiimg{
+width: auto;
+height: 100%;
+border-top-left-radius: 20px;
+border-bottom-left-radius: 20px;
+}
+
 
 .shelterbox {
   padding-left: 200px;
@@ -325,6 +367,10 @@ border-bottom-right-radius: 20px;
 
 .folarbox {
   padding-right: 200px;
+}
+
+.teamxiibox {
+  padding-left: 150px;
 }
 
 
@@ -344,6 +390,15 @@ border-bottom-right-radius: 20px;
   border-bottom-right-radius: 20px;
 }
 
+.teamxiibackground{
+  width: 100% !important;
+  height: 225px !important;
+  background-color: #FF5F1F;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+}
+
+
  #right{    
  text-align: right;
  }
@@ -353,6 +408,10 @@ border-bottom-right-radius: 20px;
 }
 
 #wrapfolar{
+  margin: 2em 0em;
+}
+
+#wrapteamxii{
   margin: 2em 0em;
 }
 
