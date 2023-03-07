@@ -94,7 +94,7 @@ border-bottom: 3px solid #141414;
   border: none;
   text-align: center;
   font-size: 32px;
-  padding:  65px;
+  padding:   10px;
   color: white;
   background: #141414;
   display: inline-block !important;
@@ -182,7 +182,7 @@ border-bottom: 3px solid #141414;
 }
 
 .blankspace{
-  height: 10vh !important;
+  height: 4vh !important;
 }
 
 }
@@ -270,8 +270,10 @@ border-bottom: 3px solid #141414;
   width:24.99999% 
   }
 
+
+/*------------------HERE------------------*/
 .w3-col.m4,.w3-third {
-width:33.33333%
+width:33.3333333%
   }
 
 .w3-col.m5 {
@@ -364,7 +366,7 @@ header {
 
 
 .backdrop{
-  background-image: url("lariverbackdrop2.jpeg");
+  background-image: url("resolvewallpaper.png");
   background-size: cover;
   background-color: #cccccc;
   position: relative !important;
