@@ -37,6 +37,7 @@
   top: 30%;
   border: 3px solid #141414;
   animation: bounce 5s infinite;
+  text-align: center !important;
 }
 
 }
@@ -67,9 +68,10 @@
   left: 0;
   right: 0;
   position: absolute;
-  top: 30%;
+  top: 20%;
   border: 3px solid #141414;
   animation: bounce 5s infinite;
+  text-align: center !important;
 }
 
 }
@@ -81,7 +83,6 @@
 .title{
   display: block;
   font-family: sans-serif;
-  margin: 10px auto 5px;
   width: 300px;
 }
 
@@ -91,7 +92,12 @@
 }
 
 .pageTitle2{
-  font-size: 1.5em;
+  font-size: 2em;
+  color: #141414;
+}
+
+.pageTitle3{
+  font-size: 1.25em;
   color: #141414;
 }
 
