@@ -234,6 +234,10 @@ border-bottom: 3px solid #141414;
   float:left;width:100%;
 }
 
+.card_title {
+  margin-top: 10px;
+}
+
 
 
 @media (min-width:850px) {
@@ -366,7 +370,7 @@ header {
 
 
 .backdrop{
-  background-image: url("resolvewallpaper.png");
+  background-image: url("resolvewallpaper_light.png");
   background-size: cover;
   background-color: #cccccc;
   position: relative !important;
@@ -374,19 +378,19 @@ header {
 
 .donate3rd{
   background-color: white;
-  border: 3px solid #7093FF;
+  border: 5px solid #7093FF;
   border-radius: 10px;
 }
 
 .volunteer3rd{
   background-color: white;
-  border: 3px solid rgb(125, 192, 67);
+  border: 5px solid rgb(125, 192, 67);
   border-radius: 10px;
 }
 
 .spreadawareness3rd{
   background-color: white;
-  border: 3px solid #141414;
+  border: 5px solid #141414;
   border-radius: 10px;
 }
 

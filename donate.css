@@ -1,271 +1,273 @@
 /*--------------------Small Screens--------------------*/
 @media all and (max-width: 799px) {
 
-.donorbox{
-    
-  padding-top: 10px;
-  padding-left: 0px !important;
-  padding-right: 0px !important;
-}
+    .donorbox {
 
-  #dialogInvoice {
-  
-  margin: auto;
-  position: relative !important;
- 
-  margin-left: 0px !important;
-  margin-right:  0px !important;
-  
-}
+        padding-top: 10px;
+        padding-left: 0px !important;
+        padding-right: 0px !important;
+    }
 
-  .title{
-  border-bottom: 3px solid;
-  font-family: 'Outfit', sans-serif !important;
-  color: black !important;
-  font-size: 25px !important;
-  margin-top: 40px;
-  margin-bottom: 50px;
-  margin-right: 15px;
-  margin-left: 15px;
-}
+    #dialogInvoice {
 
-.heading{
-  font-family: 'Outfit', sans-serif !important;
-  color: black !important;
-  font-size: 20px !important;
-  margin-right: 15px;
-  margin-left: 15px;
+        margin: auto;
+        position: relative !important;
 
-}
+        margin-left: 0px !important;
+        margin-right: 0px !important;
 
-.topspace{
-  margin-top: 200px !important;
-}
+    }
 
-.xshowpc{
-  display: none !important;
-}
+    .title {
+        border-bottom: 3px solid;
+        font-family: 'Outfit', sans-serif !important;
+        color: black !important;
+        font-size: 25px !important;
+        margin-top: 40px;
+        margin-bottom: 50px;
+        margin-right: 15px;
+        margin-left: 15px;
+    }
 
-.showmobile{
-}
+    .heading {
+        font-family: 'Outfit', sans-serif !important;
+        color: black !important;
+        font-size: 20px !important;
+        margin-right: 15px;
+        margin-left: 15px;
 
-.boxtext{
-  color: white !important;
-  background: #141414;
-  font-family: 'Outfit', sans-serif !important;
-  font-size: 18px !important;
-  border-radius: 15px;
-  border: none;
-  padding:  10px;
-  display: inline-block !important;
-  box-shadow: 2px 2px 35px rgba(0, 0, 0, 0.2);
-  margin-bottom: 15px;
-  margin-right: 15px;
-  margin-left: 15px;
-  }
+    }
 
-  .bodytext{
-    font-family: 'Outfit', sans-serif !important;
-    color: black !important;
-    text-align: justify !important;
-    font-size: 18px !important;
-    margin-bottom: 40px;
-    margin-right: 25px;
-    margin-left: 25px;
-  }
+    .topspace {
+        margin-top: 200px !important;
+    }
 
-  .bodytext2{
-    font-family: 'Outfit', sans-serif !important;
-    color: black !important;
-    text-align: justify !important;
-    font-size: 18px !important;
-    margin-right: 25px;
-    margin-left: 25px;
-  }
+    .xshowpc {
+        display: none !important;
+    }
 
-  .shelterimg{
-    width: 50px;
-    height:  50px;
-}
+    .showmobile {}
 
-.folarimg{
+    .boxtext {
+        color: white !important;
+        background: #141414;
+        font-family: 'Outfit', sans-serif !important;
+        font-size: 18px !important;
+        border-radius: 15px;
+        border: none;
+        padding: 10px;
+        display: inline-block !important;
+        box-shadow: 2px 2px 35px rgba(0, 0, 0, 0.2);
+        margin-bottom: 15px;
+        margin-right: 15px;
+        margin-left: 15px;
+    }
 
-}
+    .bodytext {
+        font-family: 'Outfit', sans-serif !important;
+        color: black !important;
+        text-align: justify !important;
+        font-size: 18px !important;
+        margin-bottom: 40px;
+        margin-right: 25px;
+        margin-left: 25px;
+    }
 
-.teamxiiimg{
-    width: 50px;
-    height:  50px;
-}
+    .bodytext2 {
+        font-family: 'Outfit', sans-serif !important;
+        color: black !important;
+        text-align: justify !important;
+        font-size: 18px !important;
+        margin-right: 25px;
+        margin-left: 25px;
+    }
+
+    .shelterimg {
+        width: 50px;
+        height: 50px;
+    }
+
+    .folarimg {}
+
+    .teamxiiimg {
+        width: 50px;
+        height: 50px;
+    }
 
 
 
-/*SHELTER-FOLAR IMAGES*/
+    /*SHELTER-FOLAR IMAGES*/
 
-.bodytextwrap{
-  font-family: 'Outfit', sans-serif !important;
-  color: white !important;
-  font-size: 12px !important;
-}
+    .bodytextwrap {
+        font-family: 'Outfit', sans-serif !important;
+        color: white !important;
+        font-size: 12px !important;
+    }
 
-.shelterimg{
-width: auto;
-height: 100%;
-border-top-left-radius: 10px;
-border-bottom-left-radius: 10px;
-}
+    .shelterimg {
+        width: auto;
+        height: 100%;
+        border-top-left-radius: 10px;
+        border-bottom-left-radius: 10px;
+    }
 
-.shelterbox {
-  padding-left: 80px;
-}
+    .shelterbox {
+        padding-left: 80px;
+    }
 
-.folarbox {
-  padding-right: 20px;
-}
+    .folarbox {
+        padding-right: 20px;
+    }
 
-.teamxiibox{
-  padding-left: 15px;
-}
+    .teamxiibox {
+        padding-left: 15px;
+    }
 
-.impacthouse2box {
-  padding-right: 20px;
-}
+    .impacthouse2box {
+        padding-right: 20px;
+    }
 
-.impacthousebox {
-  padding-left: 20px;
-}
+    .impacthousebox {
+        padding-left: 20px;
+    }
 
-.folarimg{
-width: auto;
-height: 100%;
-border-top-right-radius: 10px;
-border-bottom-right-radius: 10px;
-}
+    .folarimg {
+        width: auto;
+        height: 100%;
+        border-top-right-radius: 10px;
+        border-bottom-right-radius: 10px;
+    }
 
-.teamxiiimg{
-width: auto;
-height: 100%;
-border-top-left-radius: 10px;
-border-bottom-left-radius: 10px;
-}
-
-
-
-.shelterbackground{
-  width: 100% !important;
-  height: 200px !important;
-  background-color: #7093FF;
-  border-top-left-radius: 10px;
-  border-bottom-left-radius: 10px;
-}
-
-.folarbackground{
-  width: 100% !important;
-  height: 200px !important;
-  background-color: rgb(125, 192, 67);
-  border-top-right-radius: 10px;
-  border-bottom-right-radius: 10px;
-}
-
-.teamxiibackground{
-  width: 100% !important;
-  height: 200px !important;
-  background-color: #C9B08D;
-  border-top-left-radius: 10px;
-  border-bottom-left-radius: 10px;
-}
-
-.impacthousebackground{
-  width: 100% !important;
-  height: 200px !important;
-  background-color: #141414;
-  border-top-left-radius: 10px;
-  border-bottom-left-radius: 10px;
-}
-
-.impacthouse2background{
-  width: 100% !important;
-  height: 200px !important;
-  background-color: #6A290F;
-  border-top-right-radius: 10px;
-  border-bottom-right-radius: 10px;
-}
+    .teamxiiimg {
+        width: auto;
+        height: 100%;
+        border-top-left-radius: 10px;
+        border-bottom-left-radius: 10px;
+    }
 
 
- #right{    
- text-align: right;
- }
 
-#wrapshelter {
-  margin: 1em 0em;
-}
+    .shelterbackground {
+        width: 100% !important;
+        height: 200px !important;
+        background-color: #7093FF;
+        border-top-left-radius: 10px;
+        border-bottom-left-radius: 10px;
+    }
 
-#wrapfolar{
-  margin: 1em 0em;
-}
+    .folarbackground {
+        width: 100% !important;
+        height: 200px !important;
+        background-color: rgb(125, 192, 67);
+        border-top-right-radius: 10px;
+        border-bottom-right-radius: 10px;
+    }
 
-#wrapteamxii {
-  margin: 1em 0em;
-}
+    .teamxiibackground {
+        width: 100% !important;
+        height: 200px !important;
+        background-color: #C9B08D;
+        border-top-left-radius: 10px;
+        border-bottom-left-radius: 10px;
+    }
 
-#wrapimpacthouse {
-  margin: 1em 0em;
-}
+    .impacthousebackground {
+        width: 100% !important;
+        height: 200px !important;
+        background-color: #141414;
+        border-top-left-radius: 10px;
+        border-bottom-left-radius: 10px;
+    }
 
-#wrapimpacthouse2 {
-  margin: 1em 0em;
-}
-
-.leftwrap {
-    float: left;
-    margin-right: 1.5em;
-}
-.rightwrap {
-    float: right;
-    margin-left: 1em;
-}
-.pwrap {
-    margin-bottom: 2.5em;
-    overflow: hidden; /* this is what keep the <p> from wrapping */
-}
-.pwrap:last-child {
-    overflow: visible; /* this is an example of the browser default */
-}
-
-.alignshelter{
-  padding-left: 5px !important;
-  padding-right: 0px !important;
-  text-align: left !important;
-}
+    .impacthouse2background {
+        width: 100% !important;
+        height: 200px !important;
+        background-color: #6A290F;
+        border-top-right-radius: 10px;
+        border-bottom-right-radius: 10px;
+    }
 
 
-.alignfolar{
-  padding-right: 5px !important;
-  padding-left: 0px !important;
-  text-align: right !important;
-}
+    #right {
+        text-align: right;
+    }
 
-.alignteamxii{
-  padding-left: 5px !important;
-  padding-right: 0px !important;
-  text-align: left !important;
-}
+    #wrapshelter {
+        margin: 1em 0em;
+    }
 
-.alignimpacthouse2{
-  padding-right: 5px !important;
-  padding-left: 0px !important;
-  text-align: right !important;
-}
+    #wrapfolar {
+        margin: 1em 0em;
+    }
 
-.alignimpacthouse{
-  padding-left: 5px !important;
-  padding-right: 0px !important;
-  text-align: left !important;
-}
+    #wrapteamxii {
+        margin: 1em 0em;
+    }
 
-#textside {
-  margin-top: 80px;
+    #wrapimpacthouse {
+        margin: 1em 0em;
+    }
 
-}
+    #wrapimpacthouse2 {
+        margin: 1em 0em;
+    }
+
+    .leftwrap {
+        float: left;
+        margin-right: 1.5em;
+    }
+
+    .rightwrap {
+        float: right;
+        margin-left: 1em;
+    }
+
+    .pwrap {
+        margin-bottom: 2.5em;
+        overflow: hidden;
+        /* this is what keep the <p> from wrapping */
+    }
+
+    .pwrap:last-child {
+        overflow: visible;
+        /* this is an example of the browser default */
+    }
+
+    .alignshelter {
+        padding-left: 5px !important;
+        padding-right: 0px !important;
+        text-align: left !important;
+    }
+
+
+    .alignfolar {
+        padding-right: 5px !important;
+        padding-left: 0px !important;
+        text-align: right !important;
+    }
+
+    .alignteamxii {
+        padding-left: 5px !important;
+        padding-right: 0px !important;
+        text-align: left !important;
+    }
+
+    .alignimpacthouse2 {
+        padding-right: 5px !important;
+        padding-left: 0px !important;
+        text-align: right !important;
+    }
+
+    .alignimpacthouse {
+        padding-left: 5px !important;
+        padding-right: 0px !important;
+        text-align: left !important;
+    }
+
+    #textside {
+        margin-top: 80px;
+
+    }
 
 
 }
@@ -275,277 +277,281 @@ border-bottom-left-radius: 10px;
 /*--------------------Large Screens--------------------*/
 @media all and (min-width:800px) {
 
-  #dialogInvoice {
-  width: 400px;
-  height: 450px;
-  margin: auto;
-  position: relative !important;
-  top: 35%;
-  margin-right: 15;
+    #dialogInvoice {
+        width: 400px;
+        height: 450px;
+        margin: auto;
+        position: relative !important;
+        top: 35%;
+        margin-right: 15;
+
+    }
+
+
+    .split {
+        height: 100%;
+        width: 50%;
+        position: fixed;
+        z-index: 1;
+        top: 0;
+        overflow-x: hidden;
+        overflow-y: scroll;
+    }
+
+    .left {
+        left: 0;
+        background-color: white;
+        padding-top: 150px !important;
+    }
+
+    .right {
+        right: 0;
+        background-color: #7093FF;
+        background-image: url("lariverbackdrop.jpg");
+        background-position: center;
+        background-size: cover;
+        background-color: #cccccc;
+    }
+
+
+    .title {
+        font-family: 'Outfit', sans-serif !important;
+        color: black !important;
+        font-size: 30px !important;
+        padding-top: 75px;
+        padding-bottom: 50px !important;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .topspace {
+        margin-top: 200px !important;
+    }
+
+    .donorbox {}
+
+    .centered {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+    }
+
+
+    .showpc {}
+
+    .xshowmobile {
+        display: none !important;
+    }
+
+
+
+    /*SHELTER-FOLAR IMAGES*/
+    .boxtext {
+        color: white !important;
+        background: #141414;
+        font-family: 'Outfit', sans-serif !important;
+        font-size: 23px !important;
+        border-radius: 15px;
+        border: none;
+        padding: 10px;
+        display: inline-block !important;
+        box-shadow: 2px 2px 50px rgba(0, 0, 0, 0.2);
+        margin-bottom: 5px;
+        margin-left: 20px !important;
+    }
+
+    .bodytext {
+        font-family: 'Outfit', sans-serif !important;
+        color: black !important;
+        font-size: 20px !important;
+        margin-bottom: 30px;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    .bodytext2 {
+        font-family: 'Outfit', sans-serif !important;
+        color: black !important;
+        font-size: 20px !important;
+        margin-right: 20px;
+        margin-left: 20px;
+    }
+
+    .bodytextwrap {
+        font-family: 'Outfit', sans-serif !important;
+        color: white !important;
+        font-size: 15px !important;
+    }
+
+    .shelterimg {
+        width: auto;
+        height: 100%;
+        border-top-left-radius: 20px;
+        border-bottom-left-radius: 20px;
+    }
+
+    .teamxiiimg {
+        width: auto;
+        height: 100%;
+        border-top-left-radius: 20px;
+        border-bottom-left-radius: 20px;
+    }
+
+
+
+    .folarimg {
+        width: auto;
+        height: 100%;
+        border-top-right-radius: 20px;
+        border-bottom-right-radius: 20px;
+    }
+
+    .folarbox {
+        padding-right: 200px;
+    }
+
+    .shelterbox {
+        padding-left: 200px;
+    }
+
+    .teamxiibox {
+        padding-left: 225px;
+    }
+
+    .impacthouse2box {
+        padding-right: 125px;
+    }
+
+    .impacthousebox {
+        padding-left: 200px;
+    }
+
+
+    .shelterbackground {
+        width: 100% !important;
+        height: 225px !important;
+        background-color: #7093FF;
+        border-top-left-radius: 20px;
+        border-bottom-left-radius: 20px;
+    }
+
+    .folarbackground {
+        width: 100% !important;
+        height: 225px !important;
+        background-color: rgb(125, 192, 67);
+        border-top-right-radius: 20px;
+        border-bottom-right-radius: 20px;
+    }
+
+    .teamxiibackground {
+        width: 100% !important;
+        height: 225px !important;
+        background-color: #C9B08D;
+        border-top-left-radius: 20px;
+        border-bottom-left-radius: 20px;
+    }
+
+    .impacthousebackground {
+        width: 100% !important;
+        height: 225px !important;
+        background-color: #141414;
+        border-top-left-radius: 20px;
+        border-bottom-left-radius: 20px;
+    }
+
+    .impacthouse2background {
+        width: 100% !important;
+        height: 225px !important;
+        background-color: #6A290F;
+        border-top-right-radius: 20px;
+        border-bottom-right-radius: 20px;
+    }
+
+
+    #right {
+        text-align: right;
+    }
+
+    #wrapshelter {
+        margin: 2em 0em;
+    }
+
+    #wrapfolar {
+        margin: 2em 0em;
+    }
+
+    #wrapteamxii {
+        margin: 2em 0em;
+    }
+
+    #wrapimpacthouse {
+        margin: 2em 0em;
+    }
+
+    #wrapimpacthouse2 {
+        margin: 2em 0em;
+    }
+
+    .leftwrap {
+        float: left;
+        margin-right: 1.5em;
+    }
+
+    .rightwrap {
+        float: right;
+        margin-left: 1em;
+    }
+
+    .pwrap {
+        margin-bottom: 2.5em;
+        overflow: hidden;
+        /* this is what keep the <p> from wrapping */
+    }
+
+    .pwrap:last-child {
+        overflow: visible;
+        /* this is an example of the browser default */
+    }
+
+    .alignshelter {
+        padding-right: 30px !important;
+        text-align: left !important;
+    }
+
+    .alignteamxii {
+        padding-right: 30px !important;
+        text-align: left !important;
+    }
+
+    .alignfolar {
+        padding-left: 20px !important;
+        text-align: right !important;
+    }
+
+    .alignimpacthouse2 {
+        padding-left: 20px !important;
+        text-align: right !important;
+    }
+
+    .alignimpacthouse {
+        padding-right: 30px !important;
+        text-align: left !important;
+    }
+
 
 }
 
-
-.split {
-  height: 100%;
-  width: 50%;
-  position: fixed;
-  z-index: 1;
-  top: 0;
-  overflow-x: scroll;
-}
-
-.left{
-  left: 0;
-  background-color: white;
-  padding-top: 150px !important;
-}
-
-.right{
-  right: 0;
-  background-color: #7093FF;
-  background-image: url("lariverbackdrop.jpg");
-  background-position: center;
-  background-size: cover;
-  background-color: #cccccc;
+.bluelink {
+    color: #7093FF !important;
 }
 
 
-.title{
-  font-family: 'Outfit', sans-serif !important;
-  color: black !important;
-  font-size: 30px !important;
-  padding-top: 75px;
-  padding-bottom: 50px !important;
-  padding-left: 20px;
-  padding-right: 20px;
-}
-
-.topspace{
-  margin-top: 200px !important;
-}
-
-.donorbox{
-}
-
-.centered {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  text-align: center;
-}
-
-
-.showpc{
-}
-
-.xshowmobile{
-  display: none !important;
-}
-
-
-
-/*SHELTER-FOLAR IMAGES*/
-.boxtext{
-  color: white !important;
-  background: #141414;
-  font-family: 'Outfit', sans-serif !important;
-  font-size: 23px !important;
-  border-radius: 15px;
-  border: none;
-  padding:  10px;
-  display: inline-block !important;
-  box-shadow: 2px 2px 50px rgba(0, 0, 0, 0.2);
-  margin-bottom: 5px;
-  margin-left: 20px !important;
-  }
-
-  .bodytext{
-    font-family: 'Outfit', sans-serif !important;
-    color: black !important;
-    font-size: 20px !important;
-    margin-bottom: 30px;
-    margin-left: 20px;
-    margin-right: 20px;
-  }
-
-  .bodytext2{
-    font-family: 'Outfit', sans-serif !important;
-    color: black !important;
-    font-size: 20px !important;
-    margin-right: 20px;
-    margin-left: 20px;
-  }
-
-  .bodytextwrap{
-    font-family: 'Outfit', sans-serif !important;
-    color: white !important;
-    font-size: 15px !important;
-  }
-
-.shelterimg{
-width: auto;
-height: 100%;
-border-top-left-radius: 20px;
-border-bottom-left-radius: 20px;
-}
-
-.teamxiiimg{
-width: auto;
-height: 100%;
-border-top-left-radius: 20px;
-border-bottom-left-radius: 20px;
-}
-
-
-
-.folarimg{
-width: auto;
-height: 100%;
-border-top-right-radius: 20px;
-border-bottom-right-radius: 20px;
-}
-
-.folarbox {
-  padding-right: 200px;
-}
-
-.shelterbox {
-  padding-left: 200px;
-}
-
-.teamxiibox {
-  padding-left: 225px;
-}
-
-.impacthouse2box {
-  padding-right: 125px;
-}
-
-.impacthousebox {
-  padding-left: 200px;
-}
-
-
-.shelterbackground{
-  width: 100% !important;
-  height: 225px !important;
-  background-color: #7093FF;
-  border-top-left-radius: 20px;
-  border-bottom-left-radius: 20px;
-}
-
-.folarbackground{
-  width: 100% !important;
-  height: 225px !important;
-  background-color: rgb(125, 192, 67);
-  border-top-right-radius: 20px;
-  border-bottom-right-radius: 20px;
-}
-
-.teamxiibackground{
-  width: 100% !important;
-  height: 225px !important;
-  background-color: #C9B08D;
-  border-top-left-radius: 20px;
-  border-bottom-left-radius: 20px;
-}
-
-.impacthousebackground{
-  width: 100% !important;
-  height: 225px !important;
-  background-color: #141414;
-  border-top-left-radius: 20px;
-  border-bottom-left-radius: 20px;
-}
-
-.impacthouse2background{
-  width: 100% !important;
-  height: 225px !important;
-  background-color: #6A290F;
-  border-top-right-radius: 20px;
-  border-bottom-right-radius: 20px;
-}
-
-
- #right{    
- text-align: right;
- }
-
-#wrapshelter {
-  margin: 2em 0em;
-}
-
-#wrapfolar{
-  margin: 2em 0em;
-}
-
-#wrapteamxii{
-  margin: 2em 0em;
-}
-
-#wrapimpacthouse{
-  margin: 2em 0em;
-}
-
-#wrapimpacthouse2{
-  margin: 2em 0em;
-}
-
-.leftwrap {
-    float: left;
-    margin-right: 1.5em;
-}
-.rightwrap {
-    float: right;
-    margin-left: 1em;
-}
-.pwrap {
-    margin-bottom: 2.5em;
-    overflow: hidden; /* this is what keep the <p> from wrapping */
-}
-.pwrap:last-child {
-    overflow: visible; /* this is an example of the browser default */
-}
-
-.alignshelter{
-  padding-right: 30px !important;
-  text-align: left !important;
-}
-
-.alignteamxii{
-  padding-right: 30px !important;
-  text-align: left !important;
-}
-
-.alignfolar{
-  padding-left: 20px !important;
-  text-align: right !important;
-}
-
-.alignimpacthouse2{
-  padding-left: 20px !important;
-  text-align: right !important;
-}
-
-.alignimpacthouse{
-  padding-right: 30px !important;
-  text-align: left !important;
-}
-
-
-}
-
-.bluelink{
-  color: #7093FF !important;
-}
-
-
-.centertext{
-  text-align: center !important;
+.centertext {
+    text-align: center !important;
 }
 
 h3 {
-  text-decoration: underline;
+    text-decoration: underline;
 }

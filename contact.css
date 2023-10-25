@@ -20,6 +20,7 @@
   top: 30%;
   border: 3px solid #141414;
   animation: bounce 5s infinite;
+  text-align: center;
 }
 
 .form2 {
@@ -89,6 +90,8 @@
 .pageTitle{
   font-size: 1.5em;
   color: white;
+  width: 100%;
+  margin-top: 10px;
 }
 
 .pageTitle2{
