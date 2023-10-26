@@ -26,7 +26,7 @@ const fadeEffect = setInterval(() => {
 }, 1500);
 
 
-window.addEventListener('load');
+//window.addEventListener('load');
 
 
 (function () {
