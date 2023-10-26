@@ -2,8 +2,14 @@ const desired_r = 175;
 const desired_g = 179;
 const desired_b = 223; //define the RGB values of the desired color to fade towards
 
+let navbar_height = 0;
+
 document.addEventListener("DOMContentLoaded", function() {
     const elements = document.querySelectorAll(".space");
+
+    var navbar = document.getElementById("navbar");
+    navbar_height = navbar.getBoundingClientRect().height;
+
     elements.forEach(element => {
         updateColor(element);
     });
@@ -21,17 +27,13 @@ document.addEventListener("DOMContentLoaded", function() {
 });
 
 function updateColor(element) {
-    const centerX = window.innerWidth / 2;
-    const centerY = window.innerHeight / 2;
+    const centerY = (window.innerHeight / 2)+ navbar_height / 2;
     const elementRect = element.getBoundingClientRect();
 
-    const elementCenterX = elementRect.left + elementRect.width / 2;
-    let elementCenterY = elementRect.top + elementRect.height / 2.5;
+    let elementCenterY = elementRect.top + elementRect.height / 2;
 
     // Calculate distance between element center and screen center
-    const distance = Math.sqrt(
-        (elementCenterX - centerX) ** 2 + (elementCenterY - centerY) ** 2
-    );
+    const distance = Math.abs(centerY - elementCenterY);
 
     // A bit calculation-intensive for this type of thing, but JS deals with this with only a few ms of delay (for all elements)
     // This number only needs really small changes. Graph it out in desmos for a visual editor with `y = 0.0022x`

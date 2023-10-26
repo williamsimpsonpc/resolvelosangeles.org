@@ -265,3 +265,8 @@
 #container {
     perspective: 25px;
 }
+
+.yt_padding {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
