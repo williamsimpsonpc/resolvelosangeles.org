@@ -55,6 +55,20 @@
 
     .brshow {}
 
+    .docscontainer {
+        width: 100vw;
+        height: calc(100vh - 200px);
+        background-color: white !important;
+        margin-top: 50px;
+        display: flex;
+        flex-direction: row;
+    }
+    
+    .doc_onecontainer {
+        width: 33.33vw;
+        text-align: center;
+    }
+
 }
 
 /*Small Screen*/
@@ -93,7 +107,7 @@
         text-align: center;
         text-decoration: none;
         display: inline-block;
-        font-size: 16px;
+        font-size: 4vw;
         margin: 4px 2px;
         cursor: pointer;
         -webkit-transition-duration: 0.4s;
@@ -120,14 +134,27 @@
         width: 75vw;
     }
 
+    .docscontainer {
+        width: 100vw;
+        background-color: white !important;
+        margin-top: 50px;
+        margin: 50px auto 50px auto;
+    }
+    
+    .doc_onecontainer {
+        width: 100vw;
+        text-align: center;
+    }
+
 }
 
 .centerme {
     margin: auto;
     display: block;
-
 }
 
-.bgwhite {
-    background-color: white !important;
+.doc_inner {
+    background-color: white;
+    position: relative !important;
+    text-align: center;
 }
