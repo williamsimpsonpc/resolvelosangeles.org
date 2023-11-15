@@ -1,0 +1,78 @@
+.fit_height {
+    height: 100vh;
+    width: auto;
+}
+
+body, html {
+    overflow: hidden;
+}
+
+#page_content {
+    display: flex; justify-content: center;
+}
+
+#bg_video {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+
+#cover {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    background-color: rgba(0, 0, 0, 0.5);
+    /* Center the content */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: background-color 0.4s ease;
+}
+
+/* cover should fade to semi-transparent white on hover */
+#cover:hover {
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+.links_list {
+    display: flex;
+    flex-direction: column;
+}
+
+.links_item {
+    text-align: center;
+    margin-bottom: 2vh;
+    color: white;
+    font-size: 4vh;
+    letter-spacing: 0.15em;
+    transition: font-weight 0.5s ease;
+}
+
+.links_item:hover {
+    font-weight: bold;
+}
+
+#cover:hover .links_item {
+    text-shadow: 0 0 30px rgba(0, 0, 0, 0.8);
+}
+
+/*preloader*/
+.preloader_homepage {
+    align-items: center;
+    background: #141414;
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    left: 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 9999;
+    opacity: 1;
+}
