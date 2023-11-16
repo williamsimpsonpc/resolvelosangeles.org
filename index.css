@@ -51,6 +51,7 @@ body, html {
     color: white;
     font-size: 4vh;
     letter-spacing: 0.15em;
+    font-weight: 100;
     transition: font-weight 0.5s ease;
 }
 
