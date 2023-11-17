@@ -3,21 +3,24 @@
     width: auto;
 }
 
-body, html {
+body,
+html {
     overflow: hidden;
+    cursor: none;
 }
 
 #page_content {
-    display: flex; justify-content: center;
+    display: flex;
+    justify-content: center;
 }
 
 #bg_video {
-	position: fixed;
-	top: 0;
-	left: 0;
-	width: 100%;
-	height: 100%;
-	object-fit: cover;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
 
 #cover {
@@ -35,42 +38,34 @@ body, html {
     transition: background-color 0.4s ease;
 }
 
-@media all and (max-width: 849px) {
-    .links_item {
-        margin-bottom: 2vh;
-        color: white;
-        font-size: 2.6vh;
-        letter-spacing: 0.15em;
-        font-weight: bold;
-        transition: font-weight 0.5s ease;
-        font-family: 'Archivo Black', sans-serif;
-    }
-}
-
 @media all and (min-width: 849.5px) {
     .links_item {
-        margin-bottom: 2vh;
-        color: white;
-        font-size: 2.6vh;
-        letter-spacing: 0.15em;
         font-weight: 100;
-        transition: font-weight 0.5s ease;
-        font-family: 'Archivo Black', sans-serif;
+        font-size: 2.6vh;
+        transition: transform 0.5s ease; /* Update the transition property */
     }
-    
+
     .links_item:hover {
-        font-weight: bold;
+        font-size: 3vh;
+        transform: scale(1.1); /* Add the transform property to scale the element */
+        background-color: rgba(255, 255, 255, 0.2);
+        border-radius: 15px;
     }
 }
 
-/* cover should fade to semi-transparent white on hover */
-#cover:hover {
-    background-color: rgba(255, 255, 255, 0.5);
+.links_item {
+    margin-bottom: 2vh;
+    padding: 1vh 1vw;
+    color: white;
+    letter-spacing: 0.15em;
+    font-family: 'Archivo Black', sans-serif;
+    cursor: none;
 }
 
 .links_list {
     display: flex;
     flex-direction: column;
+    width: 20vw;
 }
 
 #cover:hover .links_item {
@@ -90,4 +85,31 @@ body, html {
     width: 100%;
     z-index: 9999;
     opacity: 1;
+}
+
+
+.cursor-element {
+    position: fixed;
+    width: 8px;
+    height: 8px;
+    border-radius: 100%;
+    z-index: 1;
+    pointer-events: none; /* Make the element not clickable */
+
+    span {
+        position: fixed;
+        border: 3px solid #fff;
+        border-radius: 100%;
+        background: transparent;
+        opacity: 0.3;
+        width: 40px;
+        height: 40px;
+        display: block;
+        z-index: 20;
+        transition: 0.62s;
+        transform: translateX(-50%) translateY(-50%);
+        transform-origin: top left;
+        transition-timing-function: cubic-bezier(.19, .58, .58, .93);
+        transition: transform 0.5s ease;
+    }
 }
