@@ -49,7 +49,6 @@ html {
         font-size: 3vh;
         transform: scale(1.1); /* Add the transform property to scale the element */
         background-color: rgba(255, 255, 255, 0.2);
-        border-radius: 15px;
     }
 }
 
@@ -59,7 +58,9 @@ html {
     color: white;
     letter-spacing: 0.15em;
     font-family: 'Archivo Black', sans-serif;
+    transition: background-color 0.25s ease;
     cursor: none;
+    border-radius: 15px;
 }
 
 .links_list {
