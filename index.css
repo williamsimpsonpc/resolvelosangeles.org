@@ -6,7 +6,6 @@
 body,
 html {
     overflow: hidden;
-    cursor: none;
 }
 
 #page_content {
@@ -42,13 +41,19 @@ html {
     .links_item {
         font-weight: 100;
         font-size: 2.6vh;
-        transition: transform 0.5s ease; /* Update the transition property */
+        transition: transform 0.5s ease;
+        cursor: none;
     }
 
     .links_item:hover {
         font-size: 3vh;
-        transform: scale(1.1); /* Add the transform property to scale the element */
+        transform: scale(1.1);
+        /* Add the transform property to scale the element */
         background-color: rgba(255, 255, 255, 0.2);
+    }
+
+    html {
+        cursor: none;
     }
 }
 
@@ -59,7 +64,6 @@ html {
     letter-spacing: 0.15em;
     font-family: 'Archivo Black', sans-serif;
     transition: background-color 0.25s ease;
-    cursor: none;
     border-radius: 15px;
 }
 
@@ -95,22 +99,29 @@ html {
     height: 8px;
     border-radius: 100%;
     z-index: 1;
-    pointer-events: none; /* Make the element not clickable */
+    pointer-events: none;
+}
 
-    span {
-        position: fixed;
-        border: 3px solid #fff;
-        border-radius: 100%;
-        background: transparent;
-        opacity: 0.3;
-        width: 40px;
-        height: 40px;
-        display: block;
-        z-index: 20;
-        transition: 0.62s;
-        transform: translateX(-50%) translateY(-50%);
-        transform-origin: top left;
-        transition-timing-function: cubic-bezier(.19, .58, .58, .93);
-        transition: transform 0.5s ease;
-    }
+.cursor_span {
+    position: fixed;
+    border: 3px solid #fff;
+    border-radius: 100%;
+    background: transparent;
+    opacity: 0.3;
+    width: 40px;
+    height: 40px;
+    display: block;
+    z-index: 20;
+    transition: 0.62s;
+    transform: translateX(-50%) translateY(-50%);
+    transform-origin: top left;
+    transition-timing-function: cubic-bezier(.19, .58, .58, .93);
+    transition: transform 0.5s ease;
+
+    /* Vendor prefixes for transform property */
+    -webkit-transform: translateX(-50%) translateY(-50%);
+
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -ms-transform: translateX(-50%) translateY(-50%);
+    -o-transform: translateX(-50%) translateY(-50%);
 }
