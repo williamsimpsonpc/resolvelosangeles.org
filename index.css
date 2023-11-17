@@ -35,6 +35,34 @@ body, html {
     transition: background-color 0.4s ease;
 }
 
+@media all and (max-width: 849px) {
+    .links_item {
+        margin-bottom: 2vh;
+        color: white;
+        font-size: 2.6vh;
+        letter-spacing: 0.15em;
+        font-weight: bold;
+        transition: font-weight 0.5s ease;
+        font-family: 'Archivo Black', sans-serif;
+    }
+}
+
+@media all and (min-width: 849.5px) {
+    .links_item {
+        margin-bottom: 2vh;
+        color: white;
+        font-size: 2.6vh;
+        letter-spacing: 0.15em;
+        font-weight: 100;
+        transition: font-weight 0.5s ease;
+        font-family: 'Archivo Black', sans-serif;
+    }
+    
+    .links_item:hover {
+        font-weight: bold;
+    }
+}
+
 /* cover should fade to semi-transparent white on hover */
 #cover:hover {
     background-color: rgba(255, 255, 255, 0.5);
@@ -43,20 +71,6 @@ body, html {
 .links_list {
     display: flex;
     flex-direction: column;
-}
-
-.links_item {
-    text-align: center;
-    margin-bottom: 2vh;
-    color: white;
-    font-size: 4vh;
-    letter-spacing: 0.15em;
-    font-weight: 100;
-    transition: font-weight 0.5s ease;
-}
-
-.links_item:hover {
-    font-weight: bold;
 }
 
 #cover:hover .links_item {
