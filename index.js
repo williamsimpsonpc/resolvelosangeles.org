@@ -109,7 +109,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
 
 document.addEventListener('DOMContentLoaded', function () {
-    if (window.innerWidth > 800) {
+    if (window.innerWidth > 1024) {
         document.addEventListener('mousemove', function (e) {
             var cursorElement = document.querySelector('.cursor-element');
             cursorElement.style.left = e.pageX + 'px';
@@ -120,7 +120,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
 
 document.addEventListener('DOMContentLoaded', function () {
-    if (window.innerWidth > 800) {
+    if (window.innerWidth > 1024) {
         const cursorElement = document.querySelector('.cursor-element');
         const linksItems = document.querySelectorAll('.links_item');
 
