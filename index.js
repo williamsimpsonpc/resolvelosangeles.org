@@ -110,7 +110,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
 document.addEventListener('DOMContentLoaded', function () {
     document.addEventListener('mousemove', function (e) {
-        if (window.innerWidth > 1024) {
+        if (window.innerWidth > 1024 && !isTouchEventsEnabled()) {
             var cursorElement = document.querySelector('.cursor-element');
             cursorElement.style.left = e.pageX + 'px';
             cursorElement.style.top = e.pageY + 'px';
@@ -123,7 +123,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
 //If the window width changes, show/hide cursor
 window.addEventListener('resize', function () {
-    if (window.innerWidth > 1024) {
+    if (window.innerWidth > 1024 && !isTouchEventsEnabled()) {
         const cursorElement = document.querySelector('.cursor-element');
         cursorElement.style.display = 'block';
     } else {
@@ -131,6 +131,19 @@ window.addEventListener('resize', function () {
         cursorElement.style.display = 'none';
     }
 });
+
+//detecting touch is far more complicated than it probably should be
+//https://stackoverflow.com/questions/55833326/wrong-maxtouchpoints-and-ontouchstart-in-document-in-chrome-mobile-emulati
+function isTouchEventsEnabled() {
+    //should never be run within a frame, so we can safely use this.
+    const navigator = (window.top || window).navigator;
+    const maxTouchPoints = Number.isFinite(navigator.maxTouchPoints) ? navigator.maxTouchPoints : navigator.msMaxTouchPoints;
+    if (Number.isFinite(maxTouchPoints)) {
+        // Windows 10 system reports that it supports touch, even though it acutally doesn't (ignore msMaxTouchPoints === 256).
+        return maxTouchPoints > 0 && maxTouchPoints !== 256;
+    }
+    return 'ontouchstart' in window;
+}
 
 document.addEventListener('DOMContentLoaded', function () {
     const cursorElement = document.querySelector('.cursor-element');
