@@ -121,6 +121,16 @@ document.addEventListener('DOMContentLoaded', function () {
     }
 });
 
+//If the window width changes, show/hide cursor
+window.addEventListener('resize', function () {
+    if (window.innerWidth > 1024) {
+        const cursorElement = document.querySelector('.cursor-element');
+        cursorElement.style.display = 'block';
+    } else {
+        const cursorElement = document.querySelector('.cursor-element');
+        cursorElement.style.display = 'none';
+    }
+});
 
 document.addEventListener('DOMContentLoaded', function () {
     if (window.innerWidth > 1024) {
