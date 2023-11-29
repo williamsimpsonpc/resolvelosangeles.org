@@ -109,16 +109,16 @@ document.addEventListener('DOMContentLoaded', function () {
 
 
 document.addEventListener('DOMContentLoaded', function () {
-    if (window.innerWidth > 1024) {
-        document.addEventListener('mousemove', function (e) {
+    document.addEventListener('mousemove', function (e) {
+        if (window.innerWidth > 1024) {
             var cursorElement = document.querySelector('.cursor-element');
             cursorElement.style.left = e.pageX + 'px';
             cursorElement.style.top = e.pageY + 'px';
-        });
-    } else {
-        const cursorElement = document.querySelector('.cursor-element');
-        cursorElement.style.display = 'none';
-    }
+        } else {
+            const cursorElement = document.querySelector('.cursor-element');
+            cursorElement.style.display = 'none';
+        }
+    });
 });
 
 //If the window width changes, show/hide cursor
@@ -133,21 +133,19 @@ window.addEventListener('resize', function () {
 });
 
 document.addEventListener('DOMContentLoaded', function () {
-    if (window.innerWidth > 1024) {
-        const cursorElement = document.querySelector('.cursor-element');
-        const linksItems = document.querySelectorAll('.links_item');
+    const cursorElement = document.querySelector('.cursor-element');
+    const linksItems = document.querySelectorAll('.links_item');
 
-        //set a transition on cursorElement so the scale takes 0.5s
-        cursorElement.style.transition = 'transform 0.25s ease-out';
+    //set a transition on cursorElement so the scale takes 0.5s
+    cursorElement.style.transition = 'transform 0.25s ease-out';
 
-        linksItems.forEach((item) => {
-            item.addEventListener('mouseenter', function () {
-                cursorElement.style.transform = 'scale(0)';
-            });
-
-            item.addEventListener('mouseleave', function () {
-                cursorElement.style.transform = 'scale(1)';
-            });
+    linksItems.forEach((item) => {
+        item.addEventListener('mouseenter', function () {
+            cursorElement.style.transform = 'scale(0)';
         });
-    }
+
+        item.addEventListener('mouseleave', function () {
+            cursorElement.style.transform = 'scale(1)';
+        });
+    });
 });
