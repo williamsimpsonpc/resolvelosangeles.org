@@ -115,6 +115,9 @@ document.addEventListener('DOMContentLoaded', function () {
             cursorElement.style.left = e.pageX + 'px';
             cursorElement.style.top = e.pageY + 'px';
         });
+    } else {
+        const cursorElement = document.querySelector('.cursor-element');
+        cursorElement.style.display = 'none';
     }
 });
 
