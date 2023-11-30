@@ -114,9 +114,23 @@ document.addEventListener('DOMContentLoaded', function () {
             var cursorElement = document.querySelector('.cursor-element');
             cursorElement.style.left = e.pageX + 'px';
             cursorElement.style.top = e.pageY + 'px';
+            //set the .links_item and html styles to cursor: none
+            const linksItems = document.querySelectorAll('.links_item');
+            const html = document.querySelector('html');
+            linksItems.forEach((item) => {
+                item.style.cursor = 'none';
+            });
+            html.style.cursor = 'none';
         } else {
             const cursorElement = document.querySelector('.cursor-element');
             cursorElement.style.display = 'none';
+            //set the .links_item and html styles to cursor: pointer
+            const linksItems = document.querySelectorAll('.links_item');
+            const html = document.querySelector('html');
+            linksItems.forEach((item) => {
+                item.style.cursor = 'pointer';
+            });
+            html.style.cursor = 'pointer';
         }
     });
 });
