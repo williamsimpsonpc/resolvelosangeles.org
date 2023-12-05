@@ -2,20 +2,24 @@
     height: 100vh;
     width: auto;
 }
-@media all and (max-width: 1079px) {
 
-.logo {
-    width: 40%;
-    height: auto;
-}
+@media all and (max-width: 1079px) {
+    .logo {
+        width: 18vh;
+        height: auto;
+    }
 }
 
 
 @media all and (min-width:1080px) {
     .logo {
-        width: 60%;
+        width: 20vh;
         height: auto;
     }
+}
+
+.logo {
+    margin-bottom: 50px;
 }
 
 
@@ -48,6 +52,7 @@ html {
     /* Center the content */
     display: flex;
     justify-content: center;
+    flex-direction: column;
     align-items: center;
     transition: background-color 0.4s ease;
     background-image: url(videos/fashion_bg.gif);
@@ -82,7 +87,8 @@ html {
     transition: background-color 0.25s ease;
     transition: transform 0.5s ease;
     border-radius: 15px;
-    box-sizing: border-box; /* Add box-sizing property */
+    box-sizing: border-box;
+    /* Add box-sizing property */
 }
 
 .links_list {
