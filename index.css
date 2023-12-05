@@ -2,6 +2,22 @@
     height: 100vh;
     width: auto;
 }
+@media all and (max-width: 1079px) {
+
+.logo {
+    width: 40%;
+    height: auto;
+}
+}
+
+
+@media all and (min-width:1080px) {
+    .logo {
+        width: 60%;
+        height: auto;
+    }
+}
+
 
 body,
 html {
@@ -34,7 +50,7 @@ html {
     justify-content: center;
     align-items: center;
     transition: background-color 0.4s ease;
-    background-image: url(videos/FINALCOMP.webp);
+    background-image: url(videos/fashion_bg.gif);
     background-position: center;
     background-attachment: fixed;
     background-size: cover;
